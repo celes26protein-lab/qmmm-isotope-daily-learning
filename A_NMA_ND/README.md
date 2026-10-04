@@ -33,17 +33,14 @@ D: 2.014
 The first-pass result can be summarized conceptually as:
 
 H → D
-  │
-  ├── Electronic structure / potential
-  │       └── essentially unchanged
-  │
-  ├── Static quantities examined here
-  │       ├── Energy       → unchanged
-  │       └── Mulliken     → unchanged
-  │
-  └── Nuclear dynamics
-          ├── Stretching frequency → shifted
-          └── Mean bond length    → no measurable shift
+- **Electronic structure / potential energy surface**
+  - Essentially unchanged
+- **Static quantities examined here**
+  - Energy → unchanged
+  - Mulliken charge → unchanged
+- **Nuclear dynamics**
+  - Stretching frequency → shifted
+  - Mean bond length → no measurable shift
           
 An isotope substitution can modify nuclear dynamics through the mass while 
 leaving the electronic potential surface unchanged.
