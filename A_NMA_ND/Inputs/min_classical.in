@@ -1,0 +1,5 @@
+Initial minimisation of NMA in water
+&cntrl
+  imin=1, maxcyc=500, ncyc=200,
+  cut=8.0, ntb=1, ntc=2, ntf=2
+/

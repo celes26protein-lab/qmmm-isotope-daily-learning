@@ -1,0 +1,6 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+nma = sequence { ACE NME }
+solvatebox nma TIP3PBOX 10.0
+saveamberparm nma NMA.prmtop NMA.inpcrd
+quit

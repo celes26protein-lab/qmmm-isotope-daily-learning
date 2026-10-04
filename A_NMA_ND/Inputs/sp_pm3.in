@@ -1,0 +1,13 @@
+#1 step
+QM/MM single point, PM3 
+&cntrl
+  imin=1, maxcyc=1, ncyc=0,
+  cut=8.0, ntb=1, ntc=1, ntf=1,
+  ifqnt=1
+/
+&qmmm
+  qmmask=':1-2', qmcharge=0,
+  qm_theory='PM3', qmshake=0,
+  qm_ewald=1, qm_pme=1,
+  printcharges=1
+/

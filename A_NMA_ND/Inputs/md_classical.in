@@ -1,0 +1,8 @@
+1 ps MD of NMA in water at 300 K
+&cntrl
+  imin=0, irest=0, ntx=1,
+  nstlim=500, dt=0.002,
+  ntt=3, gamma_ln=2.0, temp0=300.0, tempi=300.0,
+  ntb=1, ntc=2, ntf=2, cut=8.0,
+  ntpr=50, ntwx=50, ntwr=500
+/
